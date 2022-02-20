@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn_1{
+    @apply bg-red-600 text-center
+           hover:bg-purple-400 hover:text-white rounded-lg
+           focus:bg-black focus:text-yellow-300 focus:ring-teal-600 focus:ring-2;
+
+
+}
